@@ -1,1 +1,1 @@
-
+- Do not use semicolons at the end of lines in TypeScript/JavaScript files (.tsx, .jsx, .ts, .js).
