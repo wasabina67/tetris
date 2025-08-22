@@ -289,60 +289,6 @@
   color: #ccc;
 }
 
-@media (max-width: 768px) {
-  .tetris-game {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-  }
-
-  .game-board {
-    width: 250px;
-    height: 500px;
-  }
-
-  .game-sidebar {
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 250px;
-  }
-
-  .game-sidebar > * {
-    flex: 1;
-    margin: 0 5px;
-  }
-
-  .control-instructions {
-    display: none;
-  }
-}
-
-@media (max-width: 480px) {
-  .App {
-    padding: 10px;
-  }
-
-  .tetris-container {
-    padding: 15px;
-  }
-
-  .game-board {
-    width: 200px;
-    height: 400px;
-  }
-
-  .menu-screen,
-  .pause-screen,
-  .game-over-screen {
-    padding: 20px;
-    min-width: 200px;
-  }
-
-  .menu-screen h1 {
-    font-size: 2em;
-  }
-}
 
 .tetris-container {
   animation: fadeIn 0.5s ease-out;
