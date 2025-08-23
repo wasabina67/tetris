@@ -38,7 +38,7 @@ const GameControls: React.FC<GameControlsProps> = ({
           <li>← → : 左右移動</li>
           <li>↓ : 高速落下</li>
           <li>↑ : 回転</li>
-          <li>Space : 回転</li>
+          <li>Space : ドロップ</li>
           <li>P : ポーズ</li>
           <li>R : リスタート</li>
         </ul>

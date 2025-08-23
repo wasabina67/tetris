@@ -40,11 +40,11 @@ export const useKeyboard = ({
         onMoveDown()
         break
       case 'ArrowUp':
-      case ' ':
         event.preventDefault()
         onRotate()
         break
       case 'Enter':
+      case ' ':
         event.preventDefault()
         onDrop()
         break
