@@ -15,32 +15,32 @@ const GameControls: React.FC<GameControlsProps> = ({
 }) => {
   return (
     <div className="game-controls">
-      <h3>操作</h3>
+      <h3>Controls</h3>
       <div className="control-buttons">
         {gameStatus === 'menu' && (
-          <button onClick={onStart}>スタート</button>
+          <button onClick={onStart}>Start</button>
         )}
         {(gameStatus === 'playing' || gameStatus === 'paused') && (
           <>
             <button onClick={onPause}>
-              {gameStatus === 'playing' ? 'ポーズ' : '再開'}
+              {gameStatus === 'playing' ? 'Pause' : 'Resume'}
             </button>
-            <button onClick={onRestart}>リスタート</button>
+            <button onClick={onRestart}>Restart</button>
           </>
         )}
         {gameStatus === 'gameOver' && (
-          <button onClick={onRestart}>もう一度</button>
+          <button onClick={onRestart}>Play Again</button>
         )}
       </div>
       <div className="control-instructions">
-        <h4>キー操作</h4>
+        <h4>Key Controls</h4>
         <ul>
-          <li>← → : 左右移動</li>
-          <li>↓ : 高速落下</li>
-          <li>↑ : 回転</li>
-          <li>Space : ドロップ</li>
-          <li>P : ポーズ</li>
-          <li>R : リスタート</li>
+          <li>← → : Move Left/Right</li>
+          <li>↓ : Fast Drop</li>
+          <li>↑ : Rotate</li>
+          <li>Space : Drop</li>
+          <li>P : Pause</li>
+          <li>R : Restart</li>
         </ul>
       </div>
     </div>

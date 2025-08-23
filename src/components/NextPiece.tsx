@@ -14,7 +14,7 @@ const NextPiece: React.FC<NextPieceProps> = ({ piece }) => {
 
   return (
     <div className="next-piece">
-      <h3>次のピース</h3>
+      <h3>Next Piece</h3>
       <div className="next-piece-display">
         {shape.map((row, y) => (
           <div key={y} className="next-piece-row">

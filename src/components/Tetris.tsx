@@ -71,27 +71,27 @@ const Tetris: React.FC = () => {
         <div className="game-overlay">
           <div className="menu-screen">
             <h1>TETRIS</h1>
-            <button onClick={startGame}>スタート</button>
+            <button onClick={startGame}>Start</button>
           </div>
         </div>
       )}
       {gameState.gameStatus === 'paused' && (
         <div className="game-overlay">
           <div className="pause-screen">
-            <h2>一時停止</h2>
-            <button onClick={pauseGame}>再開</button>
-            <button onClick={restartGame}>リスタート</button>
+            <h2>Paused</h2>
+            <button onClick={pauseGame}>Resume</button>
+            <button onClick={restartGame}>Restart</button>
           </div>
         </div>
       )}
       {gameState.gameStatus === 'gameOver' && (
         <div className="game-overlay">
           <div className="game-over-screen">
-            <h2>ゲームオーバー</h2>
-            <p>スコア: {gameState.score}</p>
-            <p>レベル: {gameState.level}</p>
-            <p>ライン: {gameState.lines}</p>
-            <button onClick={restartGame}>もう一度</button>
+            <h2>Game Over</h2>
+            <p>Score: {gameState.score}</p>
+            <p>Level: {gameState.level}</p>
+            <p>Lines: {gameState.lines}</p>
+            <button onClick={restartGame}>Play Again</button>
           </div>
         </div>
       )}

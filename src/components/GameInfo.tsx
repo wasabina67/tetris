@@ -9,17 +9,17 @@ interface GameInfoProps {
 const GameInfo: React.FC<GameInfoProps> = ({ score, level, lines }) => {
   return (
     <div className="game-info">
-      <h3>ゲーム情報</h3>
+      <h3>Game Info</h3>
       <div className="info-item">
-        <label>スコア:</label>
+        <label>Score:</label>
         <span>{score.toLocaleString()}</span>
       </div>
       <div className="info-item">
-        <label>レベル:</label>
+        <label>Level:</label>
         <span>{level}</span>
       </div>
       <div className="info-item">
-        <label>ライン:</label>
+        <label>Lines:</label>
         <span>{lines}</span>
       </div>
     </div>
