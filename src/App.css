@@ -86,7 +86,7 @@
 .game-sidebar {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   min-width: 200px;
 }
 
@@ -94,7 +94,7 @@
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -139,7 +139,7 @@
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  padding: 15px;
+  padding: 10px;
 }
 
 .game-info h3 {
@@ -164,7 +164,7 @@
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  padding: 15px;
+  padding: 10px;
 }
 
 .game-controls h3,
